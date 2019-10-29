@@ -1,7 +1,9 @@
 # ROM
 Repository za predmet ROM
 
-Popravil sem
+Popravil
 
 Popravil sem še na GitHubu
 en vzporeden popravek
+
+Sprememba
