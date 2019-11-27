@@ -1,0 +1,257 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9339,        249]
+NotebookOptionsPosition[      7733,        212]
+NotebookOutlinePosition[      8075,        227]
+CellTagsIndexPosition[      8032,        224]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Directory", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.7838545981406*^9, 3.7838546013529644`*^9}},
+ CellLabel->
+  "In[348]:=",ExpressionUUID->"e249f894-1544-47fe-b372-0d25f5bc7cec"],
+
+Cell[BoxData["\<\"\\\\\\\\Spin\\\\SereJ19$\\\\_System\\\\MyDocuments\"\>"], \
+"Output",
+ CellChangeTimes->{3.783854602180879*^9},
+ CellLabel->
+  "Out[348]=",ExpressionUUID->"27a55c9c-9aee-407b-83ad-c42d12b78674"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"NotebookDirectory", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.783854604889161*^9, 3.7838546148899035`*^9}},
+ CellLabel->
+  "In[350]:=",ExpressionUUID->"89c31bd4-e804-4808-85bb-b3e757cfa051"],
+
+Cell[BoxData["\<\"U:\\\\ROMv\\\\ROM\\\\\"\>"], "Output",
+ CellChangeTimes->{{3.783854615858408*^9, 3.78385463901597*^9}},
+ CellLabel->
+  "Out[350]=",ExpressionUUID->"a9817951-8859-4134-9843-3a04a1571803"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SetDirectory", "[", 
+  RowBox[{"NotebookDirectory", "[", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.783854642984997*^9, 3.7838546555901995`*^9}},
+ CellLabel->
+  "In[351]:=",ExpressionUUID->"57eb56da-bc8e-419d-855c-4368dacf1a9c"],
+
+Cell[BoxData["\<\"U:\\\\ROMv\\\\ROM\"\>"], "Output",
+ CellChangeTimes->{3.7838546571523314`*^9},
+ CellLabel->
+  "Out[351]=",ExpressionUUID->"ec9827e3-6434-4792-acd9-8fe406e1350c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", 
+  RowBox[{"\"\<*\>\"", ",", "\"\<U:\\\\ROMv\\\\ROM\>\""}], "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->
+  "In[352]:=",ExpressionUUID->"4ba3b83a-b7d7-4960-90fe-b39ca121faa3"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"U:\\\\ROMv\\\\ROM\\\\.git\"\>", 
+   ",", "\<\"U:\\\\ROMv\\\\ROM\\\\README.md\"\>", 
+   ",", "\<\"U:\\\\ROMv\\\\ROM\\\\rezultati.xlsx\"\>", 
+   ",", "\<\"U:\\\\ROMv\\\\ROM\\\\vaja4-resitve2.nb\"\>", 
+   ",", "\<\"U:\\\\ROMv\\\\ROM\\\\vaja5-delno.nb\"\>", 
+   ",", "\<\"U:\\\\ROMv\\\\ROM\\\\Vaje 4.nb\"\>", 
+   ",", "\<\"U:\\\\ROMv\\\\ROM\\\\Vaje #5.nb\"\>", 
+   ",", "\<\"U:\\\\ROMv\\\\ROM\\\\Vaje#7.nb\"\>", 
+   ",", "\<\"U:\\\\ROMv\\\\ROM\\\\vaje7.pdf\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.7838547058586783`*^9},
+ CellLabel->
+  "Out[352]=",ExpressionUUID->"18d65375-54be-4620-a3c1-072ebba803c5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["\"\<U:\\\\ROMv\\\\ROM\\\\rezultati.xlsx\>\""], "Input",
+ NumberMarks->False,
+ CellLabel->
+  "In[355]:=",ExpressionUUID->"68ed392a-e3b7-4d52-911d-9efdc33d9142"],
+
+Cell[BoxData["\<\"U:\\\\ROMv\\\\ROM\\\\rezultati.xlsx\"\>"], "Output",
+ CellChangeTimes->{3.7838547260702176`*^9},
+ CellLabel->
+  "Out[355]=",ExpressionUUID->"f00cc9ce-442d-4190-8552-f89adddfb98b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Import", "[", "\"\<U:\\\\ROMv\\\\ROM\\\\rezultati.xlsx\>\"", 
+  "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->
+  "In[357]:=",ExpressionUUID->"cc0c6a79-3a08-4e2a-ae2f-79ecb37794da"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Priimek\"\>", ",", "\<\"Ime\"\>", ",", "\<\"Skupina\"\>", 
+      ",", "\<\"To\[CHacek]ke\"\>"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Furlan\"\>", ",", "\<\"Luka\"\>", ",", "\<\"A\"\>", ",", 
+      "93.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Karaka\[SHacek]\"\>", ",", "\<\"Alenka\"\>", 
+      ",", "\<\"A\"\>", ",", "94.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Ko\[CHacek]ar\"\>", ",", "\<\"Petra\"\>", ",", "\<\"B\"\>", 
+      ",", "44.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Kofol\"\>", ",", "\<\"Andra\[ZHacek]\"\>", ",", "\<\"C\"\>",
+       ",", "34.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Kumar\"\>", ",", "\<\"Barbara\"\>", ",", "\<\"B\"\>", ",", 
+      "67.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Logar\"\>", ",", "\<\"Mateja\"\>", ",", "\<\"A\"\>", ",", 
+      "42.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Pance\"\>", ",", "\<\"Martin\"\>", ",", "\<\"B\"\>", ",", 
+      "64.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Pleterski\"\>", ",", "\<\"Vesna\"\>", ",", "\<\"C\"\>", ",",
+       "30.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Tr\[CHacek]ek\"\>", ",", "\<\"Valerija\"\>", 
+      ",", "\<\"B\"\>", ",", "70.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Virant\"\>", ",", "\<\"Primo\[ZHacek]\"\>", 
+      ",", "\<\"C\"\>", ",", "58.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Vesel\"\>", ",", "\<\"Polona\"\>", ",", "\<\"C\"\>", ",", 
+      "66.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"\[CapitalZHacek]vegli\[CHacek]\"\>", 
+      ",", "\<\"Katarina\"\>", ",", "\<\"A\"\>", ",", "46.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Cvelbar\"\>", ",", "\<\"Janja\"\>", ",", "\<\"B\"\>", ",", 
+      "39.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Furlan\"\>", ",", "\<\"Ale\[SHacek]\"\>", ",", "\<\"B\"\>", 
+      ",", "36.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Iskra\"\>", ",", "\<\"Sabina\"\>", ",", "\<\"A\"\>", ",", 
+      "77.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Jerman\"\>", ",", "\<\"Katja\"\>", ",", "\<\"B\"\>", ",", 
+      "100.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Karni\[CHacek]ar\"\>", ",", "\<\"Jaka\"\>", 
+      ",", "\<\"C\"\>", ",", "26.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Koro\[SHacek]ec\"\>", ",", "\<\"Kristina\"\>", 
+      ",", "\<\"B\"\>", ",", "86.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Kr\[ZHacek]i\[SHacek]nik\"\>", ",", "\<\"Grega\"\>", 
+      ",", "\<\"B\"\>", ",", "90.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Obrenovi\[CAcute]\"\>", ",", "\<\"Tatjana\"\>", 
+      ",", "\<\"C\"\>", ",", "44.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Puncer\"\>", ",", "\<\"Primo\[ZHacek]\"\>", 
+      ",", "\<\"A\"\>", ",", "57.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Ribnikar\"\>", ",", "\<\"Matja\[ZHacek]\"\>", 
+      ",", "\<\"A\"\>", ",", "43.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"\[CapitalSHacek]temberger\"\>", ",", "\<\"Igor\"\>", 
+      ",", "\<\"B\"\>", ",", "85.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"\[CapitalSHacek]uba\[SHacek]i\[CHacek]\"\>", 
+      ",", "\<\"Matej\"\>", ",", "\<\"C\"\>", ",", "76.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Tekav\[CHacek]i\[CHacek]\"\>", ",", "\<\"Aleksander\"\>", 
+      ",", "\<\"A\"\>", ",", "34.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Tratnik\"\>", ",", "\<\"Mojca\"\>", ",", "\<\"B\"\>", ",", 
+      "79.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Smrekar\"\>", ",", "\<\"Andreja\"\>", ",", "\<\"A\"\>", ",",
+       "38.`"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Bezek\"\>", ",", "\<\"Toma\[ZHacek]\"\>", ",", "\<\"B\"\>", 
+      ",", "38.`"}], "}"}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{3.783854739610759*^9},
+ CellLabel->
+  "Out[357]=",ExpressionUUID->"ffe8f619-935e-4874-bebb-eb6e5e105467"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.783854751514267*^9, 
+  3.783854751842353*^9}},ExpressionUUID->"c7bf51d8-bec6-49a8-9cda-\
+1e1f523705ea"]
+},
+WindowSize->{958, 988},
+WindowMargins->{{18, Automatic}, {Automatic, 31}},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 206, 4, 28, "Input",ExpressionUUID->"e249f894-1544-47fe-b372-0d25f5bc7cec"],
+Cell[789, 28, 212, 4, 32, "Output",ExpressionUUID->"27a55c9c-9aee-407b-83ad-c42d12b78674"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1038, 37, 216, 4, 28, "Input",ExpressionUUID->"89c31bd4-e804-4808-85bb-b3e757cfa051"],
+Cell[1257, 43, 204, 3, 32, "Output",ExpressionUUID->"a9817951-8859-4134-9843-3a04a1571803"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1498, 51, 255, 5, 28, "Input",ExpressionUUID->"57eb56da-bc8e-419d-855c-4368dacf1a9c"],
+Cell[1756, 58, 179, 3, 32, "Output",ExpressionUUID->"ec9827e3-6434-4792-acd9-8fe406e1350c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1972, 66, 221, 5, 28, "Input",ExpressionUUID->"4ba3b83a-b7d7-4960-90fe-b39ca121faa3"],
+Cell[2196, 73, 649, 13, 52, "Output",ExpressionUUID->"18d65375-54be-4620-a3c1-072ebba803c5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2882, 91, 173, 3, 28, "Input",ExpressionUUID->"68ed392a-e3b7-4d52-911d-9efdc33d9142"],
+Cell[3058, 96, 197, 3, 32, "Output",ExpressionUUID->"f00cc9ce-442d-4190-8552-f89adddfb98b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3292, 104, 208, 5, 28, "Input",ExpressionUUID->"cc0c6a79-3a08-4e2a-ae2f-79ecb37794da"],
+Cell[3503, 111, 4059, 93, 166, "Output",ExpressionUUID->"ffe8f619-935e-4874-bebb-eb6e5e105467"]
+}, Open  ]],
+Cell[7577, 207, 152, 3, 28, "Input",ExpressionUUID->"c7bf51d8-bec6-49a8-9cda-1e1f523705ea"]
+}
+]
+*)
+
