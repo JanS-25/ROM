@@ -1,9 +1,5 @@
 # ROM
 Repository za predmet ROM
 
-Popravil
-
-Popravil sem še na GitHubu
-en vzporeden popravek
-
-Sprememba
+# SEMINARSKA NALOGA
+Za seminarsko nalogo bom predstavil vrste trikotnikov, napisal enačbe za ploščino in obseg ipd.; ter trikotnike tudi narisal.
